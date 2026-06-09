@@ -1,0 +1,2627 @@
+[
+    {
+        "data": {
+            "productReviewDetails": {
+                "reviewsSectionHeading": {
+                    "accessibility": "All reviews",
+                    "decorative": null,
+                    "size": "500",
+                    "text": "All reviews",
+                    "theme": null,
+                    "weight": "MEDIUM",
+                    "__typename": "EGDSStylizedText"
+                },
+                "sortAndFilter": {
+                    "sortAndFilter": [
+                        {
+                            "title": "travelerType",
+                            "label": "Traveller type",
+                            "submitButton": {
+                                "accessibility": "Done",
+                                "buttonType": "PRIMARY",
+                                "disabled": false,
+                                "primary": "Done",
+                                "actions": [
+                                    {
+                                        "accessibility": null,
+                                        "actionId": "Done",
+                                        "analyticsPayload": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.applied\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.applied\",\"event_version\":\"1.1.0\",\"event_type\":\"Interaction\",\"event_category\":\"review_overlay\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                        "triggerType": "CLICK",
+                                        "__typename": "ShoppingActionTrigger"
+                                    }
+                                ],
+                                "__typename": "ShoppingButton"
+                            },
+                            "toolbar": {
+                                "__typename": "UIToolbar",
+                                "primary": "Traveller type",
+                                "actions": {
+                                    "primary": {
+                                        "accessibility": "Close",
+                                        "analytics": null,
+                                        "disabled": false,
+                                        "icon": null,
+                                        "primary": null,
+                                        "__typename": "UITertiaryButton"
+                                    },
+                                    "secondaries": [
+                                        {
+                                            "accessibility": "Clear",
+                                            "primary": "Clear",
+                                            "__typename": "UITertiaryButton"
+                                        }
+                                    ],
+                                    "__typename": "UIToolbarActions"
+                                }
+                            },
+                            "options": [
+                                {
+                                    "default": true,
+                                    "disabled": false,
+                                    "label": "All",
+                                    "isSelected": true,
+                                    "optionValue": "urn:expediagroup:review_categories:trip_type:all_travelers",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"all_travelers\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Business travellers",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:review_categories:trip_type:business_travelers",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"business_travelers\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Couples",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:review_categories:trip_type:couples",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"couples\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Families",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:review_categories:trip_type:families",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"families\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Families with young children",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:review_categories:trip_type:families_with_young_children",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"families_with_young_children\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Groups",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:review_categories:trip_type:groups",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"groups\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Solo travellers",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:review_categories:trip_type:solo_travelers",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"solo_travelers\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Travellers with pets",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:review_categories:trip_type:travelers_with_pets",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"travelers_with_pets\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                }
+                            ],
+                            "graphic": null,
+                            "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_filter.opened\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_filter.opened\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                            "submittedAnalytics": null,
+                            "initiatedAnalytics": null,
+                            "__typename": "FilterViewModel"
+                        },
+                        {
+                            "title": "sortBy",
+                            "label": "Sort by",
+                            "submitButton": {
+                                "accessibility": "Done",
+                                "buttonType": "PRIMARY",
+                                "disabled": false,
+                                "primary": "Done",
+                                "actions": [
+                                    {
+                                        "accessibility": null,
+                                        "actionId": "Done",
+                                        "analyticsPayload": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_sort.applied\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_sort.applied\",\"event_version\":\"1.1.0\",\"event_type\":\"Interaction\",\"event_category\":\"review_overlay\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                        "triggerType": "CLICK",
+                                        "__typename": "ShoppingActionTrigger"
+                                    }
+                                ],
+                                "__typename": "ShoppingButton"
+                            },
+                            "toolbar": {
+                                "__typename": "UIToolbar",
+                                "primary": "Sort by",
+                                "actions": {
+                                    "primary": {
+                                        "accessibility": "Close",
+                                        "analytics": null,
+                                        "disabled": false,
+                                        "icon": null,
+                                        "primary": null,
+                                        "__typename": "UITertiaryButton"
+                                    },
+                                    "secondaries": [
+                                        {
+                                            "accessibility": "Clear",
+                                            "primary": "Clear",
+                                            "__typename": "UITertiaryButton"
+                                        }
+                                    ],
+                                    "__typename": "UIToolbarActions"
+                                }
+                            },
+                            "options": [
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Most recent",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:taxonomies:core:#e9f32feb-5946-4b19-a6f2-8206edc7a130",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_sort.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_sort.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"sort_type\":\"Most_recent\"}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": true,
+                                    "disabled": false,
+                                    "label": "Most relevant",
+                                    "isSelected": true,
+                                    "optionValue": "urn:expediagroup:taxonomies:core:#bdb0015d-63cc-4f9f-be86-3f973867ba30",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_sort.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_sort.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"sort_type\":\"Most_relevant\"}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Highest rating",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:taxonomies:core:#ca5a18bf-0d90-42b9-b81a-6f652de32ed0",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_sort.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_sort.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"sort_type\":\"Highest_rating\"}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "Lowest rating",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:taxonomies:core:#aa534828-5906-4b30-a16f-633958713d55",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_sort.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_sort.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"sort_type\":\"Lowest_rating\"}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                }
+                            ],
+                            "graphic": null,
+                            "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_sort.opened\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_sort.opened\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                            "submittedAnalytics": null,
+                            "initiatedAnalytics": null,
+                            "__typename": "FilterViewModel"
+                        },
+                        {
+                            "title": "reviewsWithPhotos",
+                            "label": "Reviews with photos",
+                            "submitButton": null,
+                            "toolbar": null,
+                            "options": [
+                                {
+                                    "default": false,
+                                    "disabled": false,
+                                    "label": "true",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:taxonomies:filters:reviews:photo:true",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_pill.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_pill.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"event_category\":\"review_overlay\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"guest_photos\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                },
+                                {
+                                    "default": true,
+                                    "disabled": false,
+                                    "label": "false",
+                                    "isSelected": false,
+                                    "optionValue": "urn:expediagroup:taxonomies:filters:reviews:photo:false",
+                                    "description": null,
+                                    "clickAnalytics": null,
+                                    "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_pill.deselected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_pill.deselected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"event_category\":\"review_overlay\",\"action_location\":\"reviews_overlay\"},\"search_request\":{\"filters\":[{\"category\":\"guest_photos\"}]}}}}}}",
+                                    "__typename": "OptionViewModel"
+                                }
+                            ],
+                            "graphic": null,
+                            "clickStreamAnalytics": null,
+                            "submittedAnalytics": null,
+                            "initiatedAnalytics": null,
+                            "__typename": "FilterViewModel"
+                        },
+                        {
+                            "title": "reviewsSearch",
+                            "label": "Search reviews",
+                            "submitButton": null,
+                            "toolbar": null,
+                            "options": [],
+                            "graphic": {
+                                "description": "Search reviews",
+                                "id": "search",
+                                "token": "icon__search",
+                                "__typename": "Icon"
+                            },
+                            "clickStreamAnalytics": null,
+                            "submittedAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_search.submitted\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_search.submitted\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\"}}}}}}",
+                            "initiatedAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews_search.initiated\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews_search.initiated\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\"}}}}}}",
+                            "__typename": "FilterViewModel"
+                        }
+                    ],
+                    "__typename": "SortAndFilterViewModel"
+                },
+                "__typename": "ProductReviewDetails",
+                "reviews": {
+                    "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reviews.viewed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reviews.viewed\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"event_category\":\"review_overlay\",\"action_reason\":\"Free text unfiltered\"},\"product_list\":[{\"guest_rating_count\":10}]}},\"v2\":{\"event_data\":{\"event\":{\"event_name\":\"reviews.viewed\",\"event_version\":\"2.13.6\",\"event_type\":\"Impression\",\"event_category\":\"review_overlay\",\"action_reason\":\"Free text unfiltered\"},\"product_list\":[{\"guest_rating_count\":10}]}}}}}",
+                    "pagination": {
+                        "button": {
+                            "primary": "More reviews",
+                            "accessibility": "More reviews",
+                            "__typename": "UISecondaryButton"
+                        },
+                        "analytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"additional_reviews.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"additional_reviews.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                        "__typename": "PaginateActionButton"
+                    },
+                    "__typename": "ProductReviews",
+                    "noResultsMessage": null,
+                    "details": [
+                        {
+                            "__typename": "ProductReview",
+                            "id": "62df5277d16ef866015d78c5",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"62df5277d16ef866015d78c5\",\"component_position\":1,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "Nice resort for family staying and food quality is also good",
+                                "title": "",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from Anand's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from Anand's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":1}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "Anand",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [
+                                {
+                                    "__typename": "ReviewThemes",
+                                    "label": "Liked: cleanliness, staff & service, property conditions & facilities, room comfort",
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "sentiment_4",
+                                        "description": "",
+                                        "token": "icon__sentiment_4"
+                                    }
+                                }
+                            ],
+                            "summary": {
+                                "accessibilityLabel": "8 out of 10 Very good",
+                                "primary": "8/10 Very good",
+                                "secondary": "Anand",
+                                "supportingMessages": [
+                                    {
+                                        "text": "Travelled with family",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    },
+                                    {
+                                        "text": "26 July 2022",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": null,
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 1 night in Jul 2022",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ProductReview",
+                            "id": "6974ac84788e395fdbbb413e",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"6974ac84788e395fdbbb413e\",\"component_position\":2,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "The first room had mold on the walls and was not bearable to sleep in. ",
+                                "title": "",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from John's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from John's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":2}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "John",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [
+                                {
+                                    "__typename": "ReviewThemes",
+                                    "label": "Liked: cleanliness, amenities, property conditions & facilities",
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "sentiment_4",
+                                        "description": "",
+                                        "token": "icon__sentiment_4"
+                                    }
+                                }
+                            ],
+                            "summary": {
+                                "accessibilityLabel": "6 out of 10 Good",
+                                "primary": "6/10 Good",
+                                "secondary": "John",
+                                "supportingMessages": [
+                                    {
+                                        "text": "Business traveller, travelled with partner",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    },
+                                    {
+                                        "text": "24 January 2026",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": null,
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 1 night in Jan 2026",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ProductReview",
+                            "id": "681cb03183700353737c88e1",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"681cb03183700353737c88e1\",\"component_position\":3,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "This is the worst hotel ",
+                                "title": "",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from Narasimhulu's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from Narasimhulu's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":3}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "Narasimhulu",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [
+                                {
+                                    "__typename": "ReviewThemes",
+                                    "label": "Disliked: cleanliness, staff & service, property conditions & facilities, room comfort",
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "sentiment_2",
+                                        "description": "",
+                                        "token": "icon__sentiment_2"
+                                    }
+                                }
+                            ],
+                            "summary": {
+                                "accessibilityLabel": "2 out of 10 Poor",
+                                "primary": "2/10 Poor",
+                                "secondary": "Narasimhulu",
+                                "supportingMessages": [
+                                    {
+                                        "text": "Travelled with partner, travelled with family, travelled with group",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    },
+                                    {
+                                        "text": "9 May 2025",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": null,
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 1 night in May 2025",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ProductReview",
+                            "id": "646a891ec7653e33dd0f3d85",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"646a891ec7653e33dd0f3d85\",\"component_position\":4,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "Property is decent, but don’t expect a proper 4 star facility and service. A bit old school hospitality. Requires a lot of training for the staff too. ",
+                                "title": "",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from Stephen's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from Stephen's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":4}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "Stephen",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [
+                                {
+                                    "__typename": "ReviewThemes",
+                                    "label": "Disliked: property conditions & facilities",
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "sentiment_2",
+                                        "description": "",
+                                        "token": "icon__sentiment_2"
+                                    }
+                                }
+                            ],
+                            "summary": {
+                                "accessibilityLabel": "6 out of 10 Good",
+                                "primary": "6/10 Good",
+                                "secondary": "Stephen",
+                                "supportingMessages": [
+                                    {
+                                        "text": "Business traveller, travelled with family",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    },
+                                    {
+                                        "text": "21 May 2023",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": null,
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 1 night in May 2023",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ProductReview",
+                            "id": "6759086bc0bba17d11851421",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"6759086bc0bba17d11851421\",\"component_position\":5,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "Presidential suit is not what was advertised. Pretty average. ",
+                                "title": "",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from Radhika's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from Radhika's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":5}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "Radhika",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [],
+                            "summary": {
+                                "accessibilityLabel": "6 out of 10 Good",
+                                "primary": "6/10 Good",
+                                "secondary": "Radhika",
+                                "supportingMessages": [
+                                    {
+                                        "text": "11 December 2024",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": null,
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 1 night in Dec 2024",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ProductReview",
+                            "id": "67d676125d32cf785468210c",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"67d676125d32cf785468210c\",\"component_position\":6,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "The staff service is slow & extremely poor…One of the worst I have ever seen…Their attitude sucks & constant reminders need to be provided for room clearance and service.",
+                                "title": "",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from Rakeshh's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from Rakeshh's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":6}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "Rakeshh",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [],
+                            "summary": {
+                                "accessibilityLabel": "4 out of 10 Fair",
+                                "primary": "4/10 Fair",
+                                "secondary": "Rakeshh",
+                                "supportingMessages": [
+                                    {
+                                        "text": "Travelled with family",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    },
+                                    {
+                                        "text": "16 March 2025",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": null,
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 2 nights in Mar 2025",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ProductReview",
+                            "id": "64eaf7eabe2df7794313edcb",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"64eaf7eabe2df7794313edcb\",\"component_position\":7,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "Overall it didn’t look clean",
+                                "title": "",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from Sridhar's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from Sridhar's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":7}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "Sridhar",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [
+                                {
+                                    "__typename": "ReviewThemes",
+                                    "label": "Liked: staff & service",
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "sentiment_4",
+                                        "description": "",
+                                        "token": "icon__sentiment_4"
+                                    }
+                                },
+                                {
+                                    "__typename": "ReviewThemes",
+                                    "label": "Disliked: cleanliness",
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "sentiment_2",
+                                        "description": "",
+                                        "token": "icon__sentiment_2"
+                                    }
+                                }
+                            ],
+                            "summary": {
+                                "accessibilityLabel": "6 out of 10 Good",
+                                "primary": "6/10 Good",
+                                "secondary": "Sridhar",
+                                "supportingMessages": [
+                                    {
+                                        "text": "Travelled with family",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    },
+                                    {
+                                        "text": "27 August 2023",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": null,
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 1 night in Aug 2023",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ProductReview",
+                            "id": "683a77b06ca8c77f8dab4791",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"683a77b06ca8c77f8dab4791\",\"component_position\":8,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "not good",
+                                "title": "",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from Narasimhulu's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from Narasimhulu's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":8}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "Narasimhulu",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [
+                                {
+                                    "__typename": "ReviewThemes",
+                                    "label": "Disliked: cleanliness, staff & service, property conditions & facilities, room comfort",
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "sentiment_2",
+                                        "description": "",
+                                        "token": "icon__sentiment_2"
+                                    }
+                                }
+                            ],
+                            "summary": {
+                                "accessibilityLabel": "2 out of 10 Poor",
+                                "primary": "2/10 Poor",
+                                "secondary": "Narasimhulu",
+                                "supportingMessages": [
+                                    {
+                                        "text": "Travelled with family",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    },
+                                    {
+                                        "text": "31 May 2025",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": null,
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 1 night in May 2025",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ProductReview",
+                            "id": "68385abc6cb02915eeff8735",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"68385abc6cb02915eeff8735\",\"component_position\":9,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "not good",
+                                "title": "",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from Narasimhulu's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from Narasimhulu's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":9}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "Narasimhulu",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [
+                                {
+                                    "__typename": "ReviewThemes",
+                                    "label": "Disliked: cleanliness, staff & service, property conditions & facilities, room comfort",
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "sentiment_2",
+                                        "description": "",
+                                        "token": "icon__sentiment_2"
+                                    }
+                                }
+                            ],
+                            "summary": {
+                                "accessibilityLabel": "2 out of 10 Poor",
+                                "primary": "2/10 Poor",
+                                "secondary": "Narasimhulu",
+                                "supportingMessages": [
+                                    {
+                                        "text": "Travelled with family",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    },
+                                    {
+                                        "text": "29 May 2025",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": null,
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 1 night in May 2025",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ProductReview",
+                            "id": "67c0307492b7c26f8fc57fd9",
+                            "disclaimer": null,
+                            "impressionAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"review.presented\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"review.presented\",\"event_version\":\"1.0.0\",\"event_type\":\"Impression\",\"action_location\":\"reviews_overlay\"},\"additional_context\":{\"user_interface\":{\"component_id\":\"67c0307492b7c26f8fc57fd9\",\"component_position\":10,\"component_name\":\"Most_relevant.All.\"}}}}}}}",
+                            "managementResponses": [],
+                            "reportReview": null,
+                            "review": {
+                                "__typename": "ReviewSection",
+                                "text": "Bel endroit où séjourner, satisfaction générale de mon séjour.\nChambre confortable (très bon lit) et relativement calme (mariage pendant mon séjour, donc assez bruyant sur une soirée).\nTrès bon restaurant.\nCependant, wifi déficient, pratiquement impossible de tenir une réunion en visio. Eau plus tiède que chaude pour la douche.",
+                                "title": "Agréable",
+                                "expando": {
+                                    "collapseAnalytics": null,
+                                    "collapsedAccessibilityText": "See less from Martin's review",
+                                    "collapsedLabel": "See less",
+                                    "expandAnalytics": null,
+                                    "expanded": false,
+                                    "expandedAccessibilityText": "See more from Martin's review",
+                                    "expandedLabel": "See more",
+                                    "items": null,
+                                    "__typename": "EGDSExpandoPeek"
+                                },
+                                "photos": null,
+                                "mediaAssets": [],
+                                "mediaGalleryDialog": {
+                                    "__typename": "ProductGalleryDialog",
+                                    "toolbar": {
+                                        "icon": {
+                                            "id": "close",
+                                            "description": "Close reviews dialog",
+                                            "__typename": "Icon"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_gallery.closed\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_gallery.closed\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"reviews\":[{\"position\":10}]}]}}}}}",
+                                        "__typename": "ProductDialogToolbar"
+                                    },
+                                    "trigger": null,
+                                    "primaryButton": {
+                                        "button": {
+                                            "accessibility": "Select a room",
+                                            "disabled": false,
+                                            "icon": null,
+                                            "primary": "Select a room",
+                                            "analytics": null,
+                                            "__typename": "UISecondaryButton"
+                                        },
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"reserve_room.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"reserve_room.selected\",\"event_version\":\"1.12.0\",\"event_type\":\"Interaction\",\"event_category\":\"Product\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_max_position\":0},\"user_interface\":{\"component_name\":\"fullscreen_gallery\"},\"image_list\":[]},\"experience\":{\"page_name\":\"Product Details\",\"page_product_line\":\"Lodging\"}}}}}}",
+                                        "targetRef": "Offers",
+                                        "__typename": "ProductScrollToButton"
+                                    },
+                                    "previousActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"left\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show previous image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    },
+                                    "nextActionButton": {
+                                        "clickAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"image_scroll.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"image_scroll.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"},\"product_list\":[{\"product_id\":\"2957142\"}],\"additional_context\":{\"image_gallery\":{\"gallery_name\":\"reviews_guest_photos\",\"gallery_max_position\":0},\"user_interface\":{\"scroll_direction\":\"right\"},\"image_list\":[]}}}}}}",
+                                        "button": {
+                                            "accessibility": "Show next image",
+                                            "__typename": "UISecondaryFloatingActionButton"
+                                        },
+                                        "__typename": "ProductFloatingActionButton"
+                                    }
+                                },
+                                "highlightedText": null,
+                                "collapseAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_less.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_less.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "expandAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"see_more.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"see_more.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}"
+                            },
+                            "reviewFeedback": null,
+                            "seoStructuredData": {
+                                "content": "Martin",
+                                "itemscope": true,
+                                "itemprop": "author",
+                                "itemtype": "https://schema.org/Person",
+                                "__typename": "SEOStructuredData"
+                            },
+                            "sentiments": [
+                                {
+                                    "__typename": "ReviewThemes",
+                                    "label": "Liked: cleanliness, staff & service, property conditions & facilities, room comfort",
+                                    "icon": {
+                                        "__typename": "Icon",
+                                        "id": "sentiment_4",
+                                        "description": "",
+                                        "token": "icon__sentiment_4"
+                                    }
+                                }
+                            ],
+                            "summary": {
+                                "accessibilityLabel": "8 out of 10 Very good",
+                                "primary": "8/10 Very good",
+                                "secondary": "Martin",
+                                "supportingMessages": [
+                                    {
+                                        "text": "Business traveller",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    },
+                                    {
+                                        "text": "27 February 2025",
+                                        "accessibility": null,
+                                        "__typename": "EGDSPlainText"
+                                    }
+                                ],
+                                "__typename": "ProductRatingSummary"
+                            },
+                            "supportingMessages": null,
+                            "translationInfo": {
+                                "disclaimer": {
+                                    "id": "google",
+                                    "token": "mark__google",
+                                    "description": "Translated by Google",
+                                    "__typename": "Mark"
+                                },
+                                "initialMessage": "Translate with Google",
+                                "loadingMessage": "Loading translation...",
+                                "seeOriginalMessage": "See original",
+                                "targetLocale": "fr_FR",
+                                "clickStreamAnalytics": "{\"metadata\":{\"packer_version\":\"1.0.1\"},\"events\":{\"translate_review.selected\":{\"v1\":{\"event_data\":{\"event\":{\"event_name\":\"translate_review.selected\",\"event_version\":\"1.0.0\",\"event_type\":\"Interaction\",\"action_location\":\"reviews_overlay\"}}}}}}",
+                                "__typename": "TranslationInfo"
+                            },
+                            "tripSummary": {
+                                "__typename": "EGDSPlainText",
+                                "text": "Stayed 4 nights in Feb 2025",
+                                "accessibility": null
+                            },
+                            "popupDisclaimer": {
+                                "title": {
+                                    "text": "Verified review",
+                                    "weight": null,
+                                    "theme": null,
+                                    "accessibility": "Verified review, more information",
+                                    "__typename": "EGDSStylizedText"
+                                },
+                                "complexTitle": null,
+                                "tooltipContent": null,
+                                "tooltipIcon": null,
+                                "policyA11yText": null,
+                                "icon": {
+                                    "description": "",
+                                    "id": "info_outline",
+                                    "token": "icon__info_outline",
+                                    "theme": null,
+                                    "size": "SMALL",
+                                    "__typename": "Icon"
+                                },
+                                "accessibilityText": "Verified review, more information",
+                                "iconTheme": "default",
+                                "description": null,
+                                "additionalDescriptions": null,
+                                "message": {
+                                    "title": null,
+                                    "content": [
+                                        {
+                                            "text": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                            "style": "P1",
+                                            "__typename": "EGDSParagraph"
+                                        },
+                                        {
+                                            "action": {
+                                                "accessibility": "Learn more, opens in a new window",
+                                                "analytics": {
+                                                    "linkName": "",
+                                                    "referrerId": "",
+                                                    "__typename": "ClientSideAnalytics"
+                                                },
+                                                "resource": {
+                                                    "value": "https://in.hotels.com/lp/b/content-guidelines",
+                                                    "__typename": "HttpURI"
+                                                },
+                                                "target": "EXTERNAL",
+                                                "__typename": "UILinkAction"
+                                            },
+                                            "disabled": false,
+                                            "linkSize": "MEDIUM",
+                                            "text": "Learn more",
+                                            "__typename": "EGDSInlineLink"
+                                        }
+                                    ],
+                                    "close": null,
+                                    "openAnalytics": {
+                                        "eventType": "CLICK",
+                                        "linkName": "Verified reviews definition",
+                                        "referrerId": "HOT.HIS.ReviewsOverlay.VerifiedReviews",
+                                        "__typename": "ClientSideAnalytics"
+                                    },
+                                    "__typename": "PopUpMessage"
+                                },
+                                "__typename": "ProductTextInfoSection"
+                            },
+                            "tnlFields": [
+                                {
+                                    "key": "egtnl67203_reviewLabel",
+                                    "value": "Verified review",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAccessibility",
+                                    "value": "Verified review, more information",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewPopup",
+                                    "value": "Only travellers who have booked a stay with us can submit a verified review. We publish all reviews, positive or negative, that are within our guidelines.",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewAnalytics",
+                                    "value": "{\"eventType\":\"CLICK\",\"linkName\":\"Verified reviews definition\",\"referrerId\":\"HOT.HIS.ReviewsOverlay.VerifiedReviews\",\"uisPrimeMessages\":[]}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewLearnMoreLink",
+                                    "value": "{\"action\":{\"accessibility\":\"Learn more, opens in a new window\",\"analytics\":{\"linkName\":\"\",\"referrerId\":\"\",\"uisPrimeMessages\":[]},\"resource\":{\"relativePath\":\"/lp/b/content-guidelines\",\"value\":\"https://in.hotels.com/lp/b/content-guidelines\"},\"target\":\"EXTERNAL\",\"useRelativePath\":false},\"disabled\":false,\"size\":\"MEDIUM\",\"text\":\"Learn more\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl67203_reviewIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"info_outline\",\"size\":\"SMALL\",\"token\":\"icon__info_outline\"}",
+                                    "__typename": "GraphQLPair"
+                                },
+                                {
+                                    "key": "egtnl64435_reviewTranslateIcon",
+                                    "value": "{\"description\":\"\",\"id\":\"translate\",\"size\":\"SMALL\",\"token\":\"icon__translate\"}",
+                                    "__typename": "GraphQLPair"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "extensions": {
+            "trace": {
+                "Trace-ID": "d5843259-7612-4c7b-9e61-e6c4a9e3fc7a"
+            },
+            "analytics": [
+                {
+                    "traceId": "d5843259-7612-4c7b-9e61-e6c4a9e3fc7a",
+                    "creationTimestamp": 1780997767148,
+                    "context": {
+                        "pageIdentity": {
+                            "lineOfBusiness": "H",
+                            "pageIdentifier": "page.Hotels.Infosite.Information",
+                            "funnelLocation": 30
+                        },
+                        "executeXdid": true,
+                        "tealiumAccountDetailsPWA": {
+                            "tealiumAccountName": "TEALIUM_OFF",
+                            "tealiumProfileName": "TEALIUM_OFF"
+                        },
+                        "beaconOffConfig": {
+                            "settings": {
+                                "adobeSuiteAccount": "expediaglobaluserdev",
+                                "sendToAdobeClientSide": false,
+                                "sendToAdobeServerSide": false,
+                                "sendToS3": false,
+                                "adobeSuiteUrl": "http://expedia.112.2o7.net/b/ss/expediaglobaluserdev/6"
+                            },
+                            "rulesMatched": "ALL_BEACON_OFF",
+                            "bucketing": {
+                                "experimentInstance": "",
+                                "bucketValue": 2,
+                                "experimentId": ""
+                            },
+                            "error": ""
+                        },
+                        "tealiumAccountDetails": {
+                            "tealiumAccountName": "TEALIUM_OFF",
+                            "tealiumProfileName": "TEALIUM_OFF"
+                        },
+                        "entryPageView": false,
+                        "beaconEnabled": true,
+                        "newVisit": false
+                    },
+                    "tealiumUtagData": {
+                        "lineOfBusiness": "hotels",
+                        "siteCountryCode": "IN",
+                        "tpid": 3202,
+                        "pageInfo": {
+                            "lineOfBusiness": "hotels",
+                            "requestURL": "http://in.hotels.com/graphql",
+                            "funnelLocation": "DETAILS",
+                            "currency": "INR",
+                            "language": "en",
+                            "pageName": "page.Hotels.Infosite.Information",
+                            "xLineOfBusiness": "HOTEL"
+                        },
+                        "tc_vars": {
+                            "privacy_gdpr_consent": true,
+                            "identifiers_session_id": "86254ba8-f3d5-3701-97e2-933e4cc5463a",
+                            "point_of_sale_eg_pos_id": "HCOM_IN",
+                            "marketing_sslt_attributed_marketing_code": "ICM.HCOM-IN.META.TRIPA.CORESEARCH.HOTEL_IN-DM",
+                            "language": "en",
+                            "search_request_gaia_id": "Unknown",
+                            "point_of_sale_eg_brand_name": "hotels",
+                            "device_information_device_type": "DESKTOP",
+                            "identifiers_tpid": 3202,
+                            "timestamps_received_at": "2026-06-09T09:36:07.069328086Z",
+                            "identifiers_site_id": 300000036,
+                            "host": "in.hotels.com",
+                            "point_of_sale": "Unknown",
+                            "is_native_app": false,
+                            "is_EU_POS": false,
+                            "event_page_name_detailed": "page.Hotels.Infosite.Information",
+                            "default_domain": "in.hotels.com",
+                            "point_of_sale_site_currency_code": "INR",
+                            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+                            "privacy_ccpa_consent": true,
+                            "identifiers_device_user_agent_id": "795e15f7-a989-4c6b-86e4-418cec69cbed",
+                            "marketing_sslt_attributed_platform_entryId": "74b28ca4-a593-4edf-bbda-c6046422317c",
+                            "isNativeOneCKO": false,
+                            "point_of_sale_locale": "IN",
+                            "identifiers_event_trace_id": "d584325976124c7b9e61e6c4a9e3fc7a",
+                            "event_page_funnel_location": "DETAILS",
+                            "referrer_url_encoded": "https%3A%2F%2Fin.hotels.com%2Fho327900%2Faalankrita-resort-and-convention-medchal-india%2F%3Fchkin%3D2026-06-21%26chkout%3D2026-06-22%26x_pwa%3D1%26rfrr%3DHSR%26pwa_ts%3D1780993245177%26referrerUrl%3DaHR0cHM6Ly9pbi5ob3RlbHMuY29tL0hvdGVsLVNlYXJjaA%253D%253D%26rffrid%3DMDP.HCOM.IN.001.126.01.IN-DM_BMP.HtDtShP.X.kwrd%253DTAID757e0e4f-f16b-4ed8-8a2e-852acb397477.ade%253D.mbl%253DL.sic%253D2.dd%253D0.los%253D1.cin%253D2026-06-21.abw%253D12%26useRewards%3Dfalse%26rm1%3Da2%253Ac0%26regionId%3D6129087%26destination%3DShamirpet%252C%2520Telangana%252C%2520India%26destType%3DMARKET%26selected%3D8827353%26latLong%3D17.591137%252C78.568426%26mpo%3DEC%26sort%3DRECOMMENDED%26top_dp%3D6500%26top_cur%3DINR%26mctc%3D9%26userIntent%3D%26selectedRoomType%3D328694033%26selectedRatePlan%3D409938253%26expediaPropertyId%3D2957142%26searchId%3De91b2362-20d5-4a31-a028-efdeddb91034%26pwaDialog%3Dproduct-reviews",
+                            "booking_product_line": "H",
+                            "marketing_same_session_marketing_code": "ICM.HCOM-IN.META.TRIPA.CORESEARCH.HOTEL_IN-DM",
+                            "marketing_latest_marketing_code": "ICM.HCOM-IN.META.TRIPA.CORESEARCH.HOTEL_IN-DM",
+                            "event_page_product_line": "HOTEL",
+                            "request_request_url": "http://in.hotels.com/graphql",
+                            "environment": "prod",
+                            "line_of_business": "hotels",
+                            "is_native_app_onecheckout": false,
+                            "event_page_name": "page.Hotels.Infosite.Information",
+                            "domain": "HOTEL",
+                            "marketing_latest_platform_entry_id": "74b28ca4-a593-4edf-bbda-c6046422317c",
+                            "referrer_url": "https://in.hotels.com/ho327900/aalankrita-resort-and-convention-medchal-india/?chkin=2026-06-21&chkout=2026-06-22&x_pwa=1&rfrr=HSR&pwa_ts=1780993245177&referrerUrl=aHR0cHM6Ly9pbi5ob3RlbHMuY29tL0hvdGVsLVNlYXJjaA%3D%3D&rffrid=MDP.HCOM.IN.001.126.01.IN-DM_BMP.HtDtShP.X.kwrd%3DTAID757e0e4f-f16b-4ed8-8a2e-852acb397477.ade%3D.mbl%3DL.sic%3D2.dd%3D0.los%3D1.cin%3D2026-06-21.abw%3D12&useRewards=false&rm1=a2%3Ac0&regionId=6129087&destination=Shamirpet%2C%20Telangana%2C%20India&destType=MARKET&selected=8827353&latLong=17.591137%2C78.568426&mpo=EC&sort=RECOMMENDED&top_dp=6500&top_cur=INR&mctc=9&userIntent=&selectedRoomType=328694033&selectedRatePlan=409938253&expediaPropertyId=2957142&searchId=e91b2362-20d5-4a31-a028-efdeddb91034&pwaDialog=product-reviews"
+                        },
+                        "siteName": "in.hotels.com",
+                        "language": "en",
+                        "locale": "en_IN",
+                        "pageName": "page.Hotels.Infosite.Information",
+                        "xLineOfBusiness": "HOTEL",
+                        "Geo": {
+                            "country": "IN",
+                            "city": "HYDERABAD",
+                            "latitude": 17.3843,
+                            "state": "TS",
+                            "longitude": 78.4583
+                        },
+                        "eapid": 36,
+                        "domain": "HOTEL",
+                        "funnelLocation": "DETAILS",
+                        "context": {
+                            "traceId": "d584325976124c7b9e61e6c4a9e3fc7a",
+                            "site": {
+                                "companyCode": "10113",
+                                "tpid": 3202,
+                                "eapid": 36,
+                                "brandId": "hotels",
+                                "siteId": 300000036,
+                                "siteName": "in.hotels.com",
+                                "jurisdictionCode": "IND",
+                                "managementUnitCode": "2110",
+                                "defaultCountry": "IN"
+                            },
+                            "privacyContext": {
+                                "canTrack": true,
+                                "canSell": true,
+                                "optInPrivacySelection": {
+                                    "yesSelected": false,
+                                    "isSet": false
+                                },
+                                "dataProtectionGuideline": "GDPR"
+                            },
+                            "requestId": "d5843259-7612-4c7b-9e61-e6c4a9e3fc7a",
+                            "hopScotchSessionId": "86254ba8-f3d5-3701-97e2-933e4cc5463a",
+                            "clientInfo": {
+                                "deviceCharacteristics": {
+                                    "brandName": "Microsoft",
+                                    "deviceOs": "Windows NT",
+                                    "mobileBrowserVersion": "149",
+                                    "resolutionHeight": 600,
+                                    "mobile": false,
+                                    "deviceOsVersion": "10.0",
+                                    "mobileBrowser": "Microsoft Edge",
+                                    "physicalScreenHeight": 400,
+                                    "modelName": "Edge",
+                                    "tablet": false,
+                                    "resolutionWidth": 800,
+                                    "wirelessDevice": false,
+                                    "physicalScreenWidth": 400
+                                },
+                                "os": "Windows NT",
+                                "ipAddress": "2406:b400:b1:2159:5816:2952:9d5d:b***",
+                                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+                                "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+                                "requestMadeByBot": false,
+                                "coords": {
+                                    "country": "IN",
+                                    "city": "HYDERABAD",
+                                    "latitude": 17.3843,
+                                    "state": "TS",
+                                    "longitude": 78.4583
+                                }
+                            },
+                            "sessionId": "86254ba8-f3d5-3701-97e2-933e4cc5463a",
+                            "user": {
+                                "guid": "795e15f7-a989-4c6b-86e4-418cec69cbed"
+                            }
+                        },
+                        "siteId": 300000036,
+                        "guid": "795e15f7-a989-4c6b-86e4-418cec69cbed",
+                        "tc_context": {
+                            "tcContainerUrl": "https://cdn.tagcommander.com/6035/tc_hcom_prod.js",
+                            "enabled": true
+                        },
+                        "brand": "hotels",
+                        "currencyCode": "INR",
+                        "lobDomain": "HOTEL"
+                    },
+                    "version": "9.1.6",
+                    "applicationName": "product-details-experience-api"
+                }
+            ]
+        }
+    }
+]
